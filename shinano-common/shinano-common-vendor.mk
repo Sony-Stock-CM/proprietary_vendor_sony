@@ -40,6 +40,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/etc/firmware/cmnlib.b02:system/etc/firmware/cmnlib.b02 \
     vendor/sony/shinano-common/proprietary/etc/firmware/cmnlib.b03:system/etc/firmware/cmnlib.b03 \
     vendor/sony/shinano-common/proprietary/etc/firmware/cmnlib.mdt:system/etc/firmware/cmnlib.mdt \
+    vendor/sony/shinano-common/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/sony/shinano-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/sony/shinano-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/sony/shinano-common/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/sony/shinano-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/sony/shinano-common/proprietary/etc/firmware/tzlibasb.b00:system/etc/firmware/tzlibasb.b00 \
     vendor/sony/shinano-common/proprietary/etc/firmware/tzlibasb.b01:system/etc/firmware/tzlibasb.b01 \
     vendor/sony/shinano-common/proprietary/etc/firmware/tzlibasb.b02:system/etc/firmware/tzlibasb.b02 \
@@ -67,6 +72,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/sony/shinano-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/sony/shinano-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/sony/shinano-common/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
+    vendor/sony/shinano-common/proprietary/etc/iddd.conf:system/etc/iddd.conf \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_cam_ctrl_plugin.so:system/lib/camera/libexcal_cam_ctrl_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_cap_ctrl_plugin.so:system/lib/camera/libexcal_cap_ctrl_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_color_ctrl_plugin.so:system/lib/camera/libexcal_color_ctrl_plugin.so \
@@ -89,7 +96,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_snapshot_ctrl_plugin.so:system/lib/camera/libexcal_snapshot_ctrl_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_splitter_plugin.so:system/lib/camera/libexcal_splitter_plugin.so \
     vendor/sony/shinano-common/proprietary/lib/camera/libexcal_streaming_ctrl_plugin.so:system/lib/camera/libexcal_streaming_ctrl_plugin.so \
-    vendor/sony/shinano-common/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
+    vendor/sony/shinano-common/proprietary/lib/hw/camera.vendor.qcom.so:system/lib/hw/camera.vendor.qcom.so \
     vendor/sony/shinano-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/shinano-common/proprietary/lib/libMiscTAApi.so:system/lib/libMiscTAApi.so \
     vendor/sony/shinano-common/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
